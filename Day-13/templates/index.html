@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mental Health Prediction</title>
+</head>
+
+<body>
+    <h2>Predict Mental Health Treatment</h2>
+    <form action="/predict" method="post">
+        Age: <input type="number" name="age"><br><br>
+        Gender (Encoded): <input type="number" name="gender"><br><br>
+        Family History (0/1): <input type="number" name="family_history"><br><br>
+        Work Interfere (Encoded): <input type="number" name="work_interfere"><br><br>
+        No. of Employees (Encoded): <input type="number" name="no_employees"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+
+</html>
